@@ -28,6 +28,21 @@ exit
 Goodbye!
 ```
 
+## My approach
+Start with fleshing out an input output table to direct my testing.
+
+Echo function:
+input | output
+-|-
+"hello, world" | "#{today's date yyyy-mm-dd} | #{current time hh:mm} | You said: 'hello, world'!"
+"my input" | "#{today's date yyyy-mm-dd} | #{current time hh:mm} | You said: 'my input'"
+
+on command line:
+input | output
+ruby echo.rb | Say something:
+exit | Goodbye
+
+
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
