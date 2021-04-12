@@ -42,6 +42,8 @@ input | output
 ruby echo.rb | Say something:
 exit | Goodbye
 
+Hit a bit of a block with testing when there is command line input involved.
+
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
