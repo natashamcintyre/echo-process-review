@@ -42,7 +42,10 @@ input | output
 ruby echo.rb | Say something:
 exit | Goodbye
 
-Hit a bit of a block with testing when there is command line input involved.
+## Reflection
+Hit a bit of a block with testing when there is command line input involved. :thinking_face: This means I diverted from an automated TDD process. I could have "test driven" each method I have used, but then I would be testing implementation and my test suite would be tightly coupled to my code, so I decided not to do this and instead to test via the command line.
+
+Next steps include edge cases - eg user does not type anything, only presses enter. User types "" or ''.
 
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
